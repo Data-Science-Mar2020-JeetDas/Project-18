@@ -1,0 +1,76 @@
+# Question - C : print available country
+
+df0 = df['Unnamed: 0']
+
+print('---------------------------------------------')
+print('Available data for following Country : ')
+print('---------------------------------------------')
+print(df0[3:,])
+print('---------------------------------------------')
+
+---------------------------------------------
+Available data for following Country : 
+---------------------------------------------
+3                                            Afghanistan
+4                                                Albania
+5                                                Algeria
+6                                                Andorra
+7                                                 Angola
+8                                    Antigua and Barbuda
+9                                              Argentina
+10                                               Armenia
+11                                             Australia
+12                                               Austria
+13                                            Azerbaijan
+14                                               Bahamas
+15                                               Bahrain
+16                                            Bangladesh
+17                                              Barbados
+18                                               Belarus
+19                                               Belgium
+20                                                Belize
+21                                                 Benin
+22                                                Bhutan
+23                      Bolivia (Plurinational State of)
+24                                Bosnia and Herzegovina
+25                                              Botswana
+26                                                Brazil
+27                                     Brunei Darussalam
+28                                              Bulgaria
+29                                          Burkina Faso
+30                                               Burundi
+31                                            Cabo Verde
+32                                              Cambodia
+                       
+167                                                Sudan
+168                                             Suriname
+169                                               Sweden
+170                                          Switzerland
+171                                 Syrian Arab Republic
+172                                           Tajikistan
+173                                             Thailand
+174                          Republic of North Macedonia
+175                                          Timor-Leste
+176                                                 Togo
+177                                                Tonga
+178                                  Trinidad and Tobago
+179                                              Tunisia
+180                                               Turkey
+181                                         Turkmenistan
+182                                               Tuvalu
+183                                               Uganda
+184                                              Ukraine
+185                                 United Arab Emirates
+186    United Kingdom of Great Britain and Northern I...
+187                          United Republic of Tanzania
+188                             United States of America
+189                                              Uruguay
+190                                           Uzbekistan
+191                                              Vanuatu
+192                   Venezuela (Bolivarian Republic of)
+193                                             Viet Nam
+194                                                Yemen
+195                                               Zambia
+196                                             Zimbabwe
+Name: Unnamed: 0, Length: 194, dtype: object
+---------------------------------------------
