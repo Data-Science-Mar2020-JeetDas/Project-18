@@ -1,0 +1,170 @@
+#--------------------: Question - E :-----------------------------
+
+# Question - E - 1 : Number of deaths HIV/AIDS between 1-59 months-slot-1(2000-2004)
+
+df2000 = df['2000.1']
+df2001 = df['2001.1']
+df2002 = df['2002.1']
+df2003 = df['2003.1']
+df2004 = df['2004.1']
+
+df2005 = df['2005.1']
+df2006 = df['2006.1']
+df2007 = df['2007.1']
+df2008 = df['2008.1']
+df2009 = df['2009.1']
+
+df2010 = df['2010.1']
+df2011 = df['2011.1']
+df2012 = df['2012.1']
+df2013 = df['2013.1']
+df2014 = df['2014.1']
+
+df2015 = df['2015.1']
+df2016 = df['2016.1']
+df2017 = df['2017.1']
+
+# Question - E - 1 : Number of deaths HIV/AIDS between 1-59 months-slot-1(2000-2004)
+
+plt.title('# Question - E - 1 : Number of deaths HIV/AIDS between 1-59 months-slot-1(2000-2004)')
+plt.xlabel("Country Sl. no --- >")
+plt.ylabel("Numbers --- >")
+    
+plt.plot(df2000[3:,],
+            marker=4,
+            markersize=10,
+            linestyle='dashed',
+            label="1 --> 2000")
+
+plt.plot(df2001[3:,],
+            marker=5,
+            markersize=10,
+            linestyle='dashed',
+            label="2 --> 2001")
+
+plt.plot(df2002[3:,],
+            marker=6,
+            markersize=10,
+            linestyle='dashed',
+            label="3 --> 2002")
+            
+plt.plot(df2003[3:,],
+            marker=7,
+            markersize=10,
+            linestyle='dashed',
+            label="4 --> 2003")
+            
+plt.plot(df2004[3:,],
+            marker='*',
+            markersize=10,
+            linestyle='dashed',
+            label="5 --> 2004")
+            
+plt.legend()
+plt.show()
+
+# Question - E - 2 : Number of deaths HIV/AIDS between 1-59 months-Slot-2(2005-2009)
+
+plt.title('# Question - E - 2 : Number of deaths HIV/AIDS between 1-59 months-Slot-2(2005-2009)')
+plt.xlabel("Country Sl. no --- >")
+plt.ylabel("Numbers --- >")
+    
+plt.plot(df2005[3:,],
+            marker=4,
+            markersize=10,
+            linestyle='dashed',
+            label="1 --> 2005")
+
+plt.plot(df2006[3:,],
+            marker=5,
+            markersize=10,
+            linestyle='dashed',
+            label="2 --> 2006")
+
+plt.plot(df2007[3:,],
+            marker=6,
+            markersize=10,
+            linestyle='dashed',
+            label="3 --> 2007")
+            
+plt.plot(df2008[3:,],
+            marker=7,
+            markersize=10,
+            linestyle='dashed',
+            label="4 --> 2008")
+            
+plt.plot(df2009[3:,],
+            marker='*',
+            markersize=10,
+            linestyle='dashed',
+            label="5 --> 2009")
+            
+plt.legend()
+plt.show()
+
+
+# Question - E - 3 : Number of deaths HIV/AIDS between 1-59 months-Slot-3(2010-2014)
+
+plt.title('# Question - E - 3 : Number of deaths HIV/AIDS between 1-59 months-Slot-3(2010-2014)')
+plt.xlabel("Country Sl. no --- >")
+plt.ylabel("Numbers --- >")
+    
+plt.plot(df2010[3:,],
+            marker=4,
+            markersize=10,
+            linestyle='dashed',
+            label="1 --> 2010")
+
+plt.plot(df2011[3:,],
+            marker=5,
+            markersize=10,
+            linestyle='dashed',
+            label="2 --> 2011")
+
+plt.plot(df2012[3:,],
+            marker=6,
+            markersize=10,
+            linestyle='dashed',
+            label="3 --> 2012")
+            
+plt.plot(df2013[3:,],
+            marker=7,
+            markersize=10,
+            linestyle='dashed',
+            label="4 --> 2013")
+            
+plt.plot(df2014[3:,],
+            marker='*',
+            markersize=10,
+            linestyle='dashed',
+            label="5 --> 2014")
+            
+plt.legend()
+plt.show()
+
+# Question - E - 4 : Number of deaths HIV/AIDS between 1-59 months-Slot-4(2015-2017)
+
+plt.title('Question - E - 4 : Number of deaths HIV/AIDS between 1-59 months-Slot-4(2015-2017)')
+plt.xlabel("Country Sl. no --- >")
+plt.ylabel("Numbers --- >")
+    
+plt.plot(df2015[3:,],
+            marker=4,
+            markersize=10,
+            linestyle='dashed',
+            label="1 --> 2015")
+
+plt.plot(df2016[3:,],
+            marker=5,
+            markersize=10,
+            linestyle='dashed',
+            label="2 --> 2016")
+
+plt.plot(df2017[3:,],
+            marker=6,
+            markersize=10,
+            linestyle='dashed',
+            label="3 --> 2017")
+            
+plt.legend()
+plt.show()
